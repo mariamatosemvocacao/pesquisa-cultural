@@ -51,7 +51,7 @@
         </datalist>
 
         <p>
-            <label for="instituiçao">Onde voce foca os seus estudos atualmete?</label><br>
+            <label for="instituiçao">Onde voce foca os seus estudos atualmente?</label><br>
             <select id="instituiçao">
                 <option value="">Selecione...</option>
                 <option value="Universidade">Universidade</option>
@@ -60,7 +60,29 @@
             </select>
         </p>
 
+
         
     </div>
 </body>
+<p>
+    <label for="acessorios">Quais acessórios completa o seu look?</label><br>
+    <select id="acessorios" name="acessorios" multiple size="4">
+        <option value="colar">colar</option>
+        <option value="anel">anel</option>
+        <option value="Pulseira">Pulseira</option>
+        <option value="brinco">Brinco</option>
+    </select>
+</p>
+<p>
+    <label for="notaESTILO"> De 0 a 10, quanto a moda representa a sua identidade?</label>br>
+    <input type="range" id="notaESTILO" name="notaESTILO" MIN="0" MAX="10" VALUE="5">
+    <spam>Nota Selecionada:
+        <output name="resultadoNOTA" for="notaESTILO">5</output>
+    </spam>
+
+    <p>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar formulario</button>
+    </p>
+    
 </html> 
